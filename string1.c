@@ -1,4 +1,5 @@
 #include "shell.h"
+
 /**
  * _strcpy - copies a string
  * @dest: the destination
@@ -84,5 +85,3 @@ int _putchar(char c)
 		buf[i++] = c;
 	return (1);
 }
-
-

@@ -1,4 +1,5 @@
 #include "shell.h"
+
 /**
  * add_node - adds a node to the start of the list
  * @head: address of pointer to head node
@@ -156,5 +157,4 @@ void free_list(list_t **head_ptr)
 	}
 	*head_ptr = NULL;
 }
-
 

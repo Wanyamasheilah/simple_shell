@@ -17,6 +17,10 @@ int main(int ac, char **av)
 			: "=r" (fd)
 			: "r" (fd));
 
+		"add $3, %0"
+		: "=r" (fd)
+		: "r" (fd))
+
 	if (ac == 2)
 	{
 		fd = open(av[1], O_RDONLY);
